@@ -463,13 +463,9 @@ iframe{
         flex-direction: column;
     }
 
-    article, aside, .ad{
+    article, aside{
         width: 100%;
     }
-    .ad{
-        order: 3;
-    }
-        
 
     #news .page-title{
         margin-top: 30px;
