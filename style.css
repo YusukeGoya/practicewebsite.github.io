@@ -72,6 +72,15 @@ img{
     font-weight: normal;
 }
 
+.menu-icon {
+    color: white;
+    float: right;
+    font-size: 25px;
+    padding: 21px 0;
+    display: none;
+    
+  }
+
 /* ボタン */
 .button{
     font-size: 1.375rem;
@@ -358,9 +367,12 @@ iframe{
         margin-top: 20%;
     }
 
-    .page-header{
-        flex-direction: column;
-        align-items: center;
+    .header-left{
+        display: none;
+    }
+
+    .menu-icon{
+        display: block;
     }
 
     /* NEWS */
