@@ -467,6 +467,17 @@ iframe{
         width: 100%;
     }
 
+    article{
+        order: 1;
+    }
+    aside{
+        order: 2;
+    }
+    .ad{
+        display: none;
+    }
+
+
     #news .page-title{
         margin-top: 30px;
     }
